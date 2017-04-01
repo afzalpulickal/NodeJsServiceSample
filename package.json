@@ -1,0 +1,21 @@
+{
+  "name": "Package",
+  "version": "1.0.0",
+  "description": "sampleapp",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "express": "*",
+    "fs": "*",
+    "body-parser": "*",
+    "mongoose": "*"
+  },
+  "author": "afzal",
+  "license": "ISC",
+  "dependencies": {
+    "mssql": "^3.3.0"
+  }
+}
